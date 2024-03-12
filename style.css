@@ -1,0 +1,464 @@
+body{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+
+/* HEADER  */
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(230, 230, 13);
+    height: 30px;
+    max-width: 100rem;
+}
+
+.icon{
+    padding: 0px 8px;
+}
+
+.header{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: yellow;
+}
+h1{
+    margin: 0px;
+}
+.list{
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* dropdown */
+
+.car{
+    background-color: yellow;
+}
+.car .mega-drop{
+    position: absolute;
+    right: 187px;
+    transform: translateX(50%);
+    margin-top: 16px;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .3s ease-in-out;
+    /* top: 10rem; */
+}
+.mega-grid{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: yellow;
+}
+
+.mega-child-div{
+    padding: 2rem;
+    border-right: .1rem solid black;
+}
+
+.mega-child-div p{
+    height: 1rem;
+    line-height: 0rem;
+    margin-bottom: 1rem;
+}
+
+.mega-links{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+.car:hover .mega-drop{
+    visibility: visible;
+    opacity: 1;
+}   
+.car:active .mega-drop{
+    visibility: visible;
+    opacity: 1;
+}   
+
+/* MID Home SECTION  */
+
+.first{
+    background: url('./img/sports-and-luxury-cars-gather-in-the-parking-lot-mysterious-527315783.png') center center fixed;
+    background-position: center;
+    background-size: cover;
+    max-width: 100%;
+    min-height: 90vh;
+    border-radius: 0% 0% 100% 0%;
+}
+
+.img2{
+    position: absolute;
+    top: 100px;
+    bottom: 0px;
+    right: 25px;
+    max-width: 75%;
+    height: 90vh;
+}
+
+
+.first-h1{
+    font-size: 20px;
+    font-weight: bold;
+    color: #383838;
+    text-transform: uppercase;
+    background: yellow;
+    width: 60%;
+    padding-left: 40px;
+}
+.main{
+    padding: 0px 20px;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    
+}
+.big{
+    margin-top: 0px;
+    color: white;
+    font-size: 50px;
+    text-transform: uppercase;
+
+}
+
+.small{
+    font-size: 20px;
+    color: white;
+    margin: 0px;
+}
+
+.small1{
+    margin-top: 20px;
+}
+
+.navLink{
+    display: flex;
+    flex-direction: column;
+}
+
+.dates{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.ret-date{
+    margin-left: 35px;
+    color: #fff;
+}
+
+#input{
+    color: white;
+    margin-right: 10px;
+
+}
+.input{
+    background: linear-gradient(90deg, rgba(232,225,18,1) 0%, rgba(150,138,1,1) 80%);
+    color: black;
+    border-color:rgba(232,225,18,1);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: 0.1s ease;
+    margin: 0px 7px;
+    width: 10%;
+    height: 30%;
+}
+.input:hover{
+    transform: scale(1.05);
+
+}
+
+.submit{
+    margin-left: 140px;
+    font-size: 14px;
+    height: 30px;
+}
+
+/* Section 2 */
+.featured{
+    max-width: 100%;
+    color: black;
+    background-color: yellow;
+    text-align: center;
+    font-size: 50px;
+}
+
+.car-container{
+    display: grid;
+    grid-template-columns:  repeat(auto-fit, minmax(350px, 1fr));
+    gap: 40px;
+
+}
+.content{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 16px;
+    margin: 0px 30px;
+}
+
+.img-1{
+    max-width: 80%;
+    margin-left: 30px;
+}
+
+.car-name{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 800;
+    text-transform: uppercase;
+
+}
+.detail{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 10px;
+}
+
+.detail-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.rent-4{
+    background: linear-gradient(90deg, rgba(232,225,18,1) 0%, rgba(150,138,1,1) 80%);
+    color: black;
+    border-color:rgba(232,225,18,1);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: 0.1s ease;
+    padding: 8px 13px;
+    border-radius: 5px;
+}
+.rent-4:hover{
+    transform: scale(1.05);
+    letter-spacing: 1px;
+
+}
+
+    /* third section */
+
+.third-line{
+    margin-top: 50px;
+    max-width: 100%;
+    color: black;
+    background-color: yellow;
+    text-align: center;
+    font-size: 50px;
+}
+.process{
+    background: url('./img/Untitled-5.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    min-height: 90vh;
+}
+
+.process-img{
+    position: relative;
+    height: 30vh;
+    top: 213px;
+    left: 270px;
+    rotate: 65deg;
+    animation-name: move;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: backwards;
+    
+}
+/* Animation */
+@keyframes move {
+    0%{
+        left: 10%;
+    }
+    25%{
+        left: 45%;
+        rotate: 90deg;
+    }
+    50%{
+        left: 60%;
+        top: 226px; 
+        rotate: 120deg;
+    }
+    100%{
+        left: 75%;
+        top: 190px;
+        rotate: 50deg;
+    }
+}
+
+/* fourth */
+.feature-container{
+    display: flex;
+    height: 30vh;
+    border-radius: 10px;
+}
+
+.feature{
+    display: flex;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    margin: 0px 40px;
+}
+
+.text{
+    padding: 20px 5px;
+}
+.text-img{
+    height: 53%;
+    width: 40%;
+}
+
+/* MEDIA QUERY */
+     /* HEADER  */
+@media (max-width:830px) {
+    .top{
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .big{
+        font-size: 20px;
+    }
+    .small{
+        font-size: 13px;
+    }
+    .img2{
+        max-width: 65%;
+        height: 80vh;
+    }
+}
+
+@media (max-width:700px) {
+    .top{
+        text-align: center;
+        font-size: 10px;
+    }
+
+    .icon{
+        padding: 0px 0px;
+    }
+
+    .header{
+        font-size: 15px;
+    }
+
+    .list{
+        font-size: 11px;
+        gap: 40px;
+    }
+
+    .big{
+        font-size: 23px;
+    }
+    .small{
+        font-size: 10px;
+    }
+    .ret-date{
+        margin-left:10px ;
+    }
+
+    #input{
+        font-size: 13px;
+    }
+    .submit{
+        margin-left: 40px;
+        height: 20px;
+    }
+
+    .second{
+        padding: 20px;
+    }
+}
+
+@media (max-width:600px) {
+    .top{
+        text-align: center;
+        font-size: 9px;
+    }
+    .header{
+        font-size: 15px;
+    }
+
+    .list{
+        font-size: 11px;
+        gap: 10px;
+        margin-right: 28px;
+    }
+    .img2{
+        position: relative;
+        z-index: 1;
+        top: -335px;
+        left: 253px;
+        height: 80vh;
+    }
+    .big{
+        font-size: 18px;
+    }
+    .small{
+        font-size: 9px;
+    }
+    .process-img{
+        display: none;
+    }
+    
+
+    
+}
+@media (max-width:550px) {
+    .img2{
+        position: relative;
+        z-index: 1;
+        top: -271px;
+        left: 245px;
+        height: 52vh;
+    }
+}
+
+@media (max-width:435px) {
+    .img2{
+        position: relative;
+        z-index: 1;
+        top: -261px;
+        left: 213px;
+        height: 49vh;
+    }
+    .first-h1{
+        font-size: 14px;
+        width: 60%;
+        padding-left: 20px;
+    }
+    .big{
+        font-size: 13px;
+    }
+    .small{
+        font-size: 7px;
+    }
+}
+
+@media (max-width:400px) {
+    .header{
+        font-size: 8px;
+        padding-left: 27px;
+    }
+
+    .list{
+        font-size: 9px;
+        gap: 7px;
+        margin-right: 18px;
+    }
+    .img2{
+        position: relative;
+        z-index: 1;
+        top: -248px;
+        left: 156px;
+        height: 40vh;
+    }
+}
