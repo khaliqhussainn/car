@@ -10,21 +10,24 @@
 <body>
     <header>
             <div class="top">
-                <a href="mailto:khaliqhussain9711@gmail.com"> Email Us: &nbsp;<i class='bx bxs-envelope'></i>khaliqhussain9711@gmail.com</a>
-                <a href="tel:+9711644284"><i class='bx bxs-phone-call' ></i>  9711644284</a>
+                <a class="my-link" href="mailto:khaliqhussain9711@gmail.com"> Email Us: &nbsp;<i class='bx bxs-envelope'></i>khaliqhussain9711@gmail.com</a>
+                <a class="my-link" href="tel:+9711644284"><i class='bx bxs-phone-call' ></i>  9711644284</a>
                 <p><i class='bx bxs-alarm' ></i>Sun-Fri(8AM-10PM)</p>
                 <p>Follow Us: <i class='bx bxl-instagram icon' ></i> <i class='bx bxl-facebook-square icon ' ></i> <i class='bx bxl-twitter icon' ></i></p>
             </div>
             <div class="header">
-                <h1><span>RentKar</span></h1>
+                <h1><span>Cars</span></h1>
                 <ul class="list">
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Service</li>
-                    <li>Contact</li>
+                    <li><a class="vehicle" href="">Home</a></li>
+                    <li><a class="vehicle" href="#cars">Cars</a></li>
+                    <li><a class="vehicle" href="./myvehicle.html">My Vehicles</a></li>
+                    <li><a href="#contact" class="vehicle">Contact</a></li>
                 </ul>
-                <button class="car">Explore Cars<i class='bx bx-chevron-down'></i>
-                    <div class="mega-drop">
+                <a class="my-link" href="./login.html">
+                    <button class="car">Login Now
+                </a>
+                <!-- <i class='bx bx-chevron-down'></i> -->
+                    <!-- <div class="mega-drop">
                         <div class="mega-grid">
                             <div class="mega-child-div">
                                 <p>Links</p>
@@ -48,20 +51,26 @@
                                 </ul>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </button>
             </div>
         </header>
     <section class="first">
         <div class="main">
-            <h1 class="big">Rent your Favourite </h1>
+            <h1 class="big">Discover your Favourite </h1>
             <h1 class="big">Car Today!</h1>
-            <h3 class="small small1">Find the best car for you with our rental services</h3>
+            <h3 class="small small1">Find the best car for you with Dealership services</h3>
             <h3 class="small">We have all your choices of cars. </h3>
         </div>
         <div>
             <h1 class="first-h1">Pick Your Car</h1>
-            <ul class="navLink">
+            <ul class="navlink">
+                <p id="input">Get Best Deals of Car at Genuine Price </p> 
+                <div class="dates">
+                    <p class="para-first">See our Latest Collection of All Types of Cars </p> <button class="rent-4"><a id="rent-4" href="./myvehicle.html">My Vehicle</a></button>
+                </div>
+            </ul>
+            <!-- <ul class="navLink">
                 <div class="dates">
                     <p id="input">Enter Your Location!</p>
                     <input class="input" type="text" placeholder="Enter Location" id="location">
@@ -73,24 +82,24 @@
                     <input class="input" type="date" name="Date" placeholder="Return Date" id="date">
                 </div>
                 <input class="input submit" type="submit" value="Submit">
-            </ul>
+            </ul> -->
         </div>
         <img src="./img/full-view-black-rolls-royce-with-a-original-symbol-of-ecstasy-lamborghini-bugatti-cars--in-my-gra-897091066-removebg-preview.png" alt="" class="img2">
     </section>
 
     <section class="second">
-        <h2 class="featured"> Featured Cars</h2>
+        <h2 class="featured" id="cars"> Featured Cars</h2>
         <div class="car-container">
             <div class="content">
                 <video class="img-1" src="./img/4.mp4" autoplay loop muted ></video>
-                <h3 class="car-name">Toyota</h3>
+                <h3 class="car-name">Ferrari </h3>
                 <div class="detail">
                     <h2><i class='bx bx-user'></i> 4 People</h2>
                     <h2><i class='bx bx-tachometer'></i> 6.1km/1-litre</h2>
                 </div>
                 <div class="detail-2">
-                    <h6>$50.00/Day</h6>
-                    <button class="rent-4">Rent Now</button>
+                    <h6>$50.00</h6>
+                    <button class="rent-4">Deal Now</button>
                 </div>
             </div>
             <div class="content">
@@ -101,8 +110,8 @@
                     <h2><i class='bx bx-tachometer'></i> 6.1km/1-litre</h2>
                 </div>
                 <div class="detail-2">
-                    <h6>$50.00/Day</h6>
-                    <button class="rent-4">Rent Now</button>
+                    <h6>$50.00</h6>
+                    <button class="rent-4">Deal Now</button>
                 </div>
             </div>
             <div class="content">
@@ -113,8 +122,8 @@
                     <h2><i class='bx bx-tachometer'></i> 6.1km/1-litre</h2>
                 </div>
                 <div class="detail-2">
-                    <h6>$50.00/Day</h6>
-                    <button class="rent-4">Rent Now</button>
+                    <h6>$50.00</h6>
+                    <button class="rent-4">Deal Now</button>
                 </div>
             </div>
             <div class="content">
@@ -125,8 +134,8 @@
                     <h2><i class='bx bx-tachometer'></i> 6.1km/1-litre</h2>
                 </div>
                 <div class="detail-2">
-                    <h6>$50.00/Day</h6>
-                    <button class="rent-4">Rent Now</button>
+                    <h6>$50.00</h6>
+                    <button class="rent-4">Deal Now</button>
                 </div>
             </div>
             <div class="content">
@@ -137,8 +146,8 @@
                     <h2><i class='bx bx-tachometer'></i> 6.1km/1-litre</h2>
                 </div>
                 <div class="detail-2">
-                    <h6>$50.00/Day</h6>
-                    <button class="rent-4">Rent Now</button>
+                    <h6>$50.00</h6>
+                    <button class="rent-4">Deal Now</button>
                 </div>
             </div>
             <div class="content">
@@ -149,39 +158,238 @@
                     <h2><i class='bx bx-tachometer'></i> 6.1km/1-litre</h2>
                 </div>
                 <div class="detail-2">
-                    <h6>$50.00/Day</h6>
-                    <button class="rent-4">Rent Now</button>
+                    <h6>$50.00</h6>
+                    <button class="rent-4">Deal Now</button>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="third">
+    <!-- <section class="third">
         <h1 class="third-line">How to Book a car Online?</h1>
         <div class="process">
             <img class="process-img" src="./img/75694-bird's-eye-car-top-view,plan-view-icon.png" alt="">
         </div>
+    </section> -->
+
+    <section class="four">
+        <div class="elec-cars">
+            <h2 class="featured" id="cars"> Electric Cars</h2>
+            <div class="all-ele-car">
+                <div class="elec-car">
+                    <img src="./img/ev-1.webp" alt="" class="ev-img">
+                    <p class="elec-text">Tata Punch EV</p>
+                    <p class="elec-price">1,0000000- 1,200000</p>
+                </div>
+                <div class="elec-car">
+                    <img src="./img/ev-2.webp" alt="" class="ev-img">
+                    <p class="elec-text">Tata Nexon EV</p>
+                    <p class="elec-price">1,0000000- 1,200000</p>
+                </div>
+                <div class="elec-car">
+                    <img src="./img/ev-3.webp" alt="" class="ev-img">
+                    <p class="elec-text">Tata Tiago EV</p>
+                    <p class="elec-price">1,0000000- 1,200000</p>
+                </div>
+                <div class="elec-car">
+                    <img src="./img/ev-4.webp" alt="" class="ev-img">
+                    <p class="elec-text">BMW iX</p>
+                    <p class="elec-price">1.1 Cr - 1.2 Cr</p>
+                </div>
+            </div>
+            <a class="view" href="">View All Electric Cars</a>
+        </div>
+
     </section>
 
+    <section class="five">
+        <div class="coming-cars">
+            <h2 class="featured" id="cars"> Upcoming Cars</h2>
+            <div class="all-com-car">
+                <div class="com-car">
+                    <img src="./img/com-1.webp" alt="" class="com-img">
+                    <p class="com-text">BMW-i5</p>
+                    <p class="com-price">1,0000000- 1,200000</p>
+                </div>
+                <div class="com-car">
+                    <img src="./img/com-2.webp" alt="" class="com-img">
+                    <p class="com-text">Mercedes Benz EQA</p>
+                    <p class="com-price">1,0000000- 1,200000</p>
+                </div>
+                <div class="com-car">
+                    <img class="com-img" src="./img/com-3.webp" alt="">
+                    <p class="com-text">Lexus UX</p>
+                    <p class="com-price">1,0000000- 1,200000</p>
+                </div>
+                <div class="com-car">
+                    <img src="./img/com-4.jpg" alt="" class="com-img">
+                    <p class="com-text">XUV 400</p>
+                    <p class="com-price">1,0000000- 1,200000</p>
+                </div>
+            </div>
+            <a class="view" href="">View All Upcoming Cars</a>
+        </div>
+    </section>
+
+    <section class="brand-cars">
+        <h2 class="featured" id="cars"> Popular Brands</h2>
+        <div class="carbrand">
+            <div class="brands">
+                <img src="./img/rolls-royce.webp" alt="" class="brand-img">
+                <p class="brand-text">Rolls Royce</p>
+            </div>
+            <div class="brands">
+                <img src="./img/mg.webp" alt="" class="brand-img">
+                <p class="brand-text">MG</p>
+            </div>
+            <div class="brands">
+                <img src="./img/mahindra.webp" alt="" class="brand-img">
+                <p class="brand-text">Mahindra</p>
+            </div>
+            <div class="brands">
+                <img src="./img/mercedes-benz.webp" alt="" class="brand-img">
+                <p class="brand-text">Mercesdes Benz</p>
+            </div>
+            <div class="brands">
+                <img src="./img/hyundai.webp" alt="" class="brand-img">
+                <p class="brand-text">Hyundai</p>
+            </div>
+            <div class="brands">
+                <img src="./img/kia.webp" alt="" class="brand-img">
+                <p class="brand-text">Kia</p>
+            </div>
+        </div>
+    </section>
+    <div class="quality">
+        <h2 class="featured" id="cars">Why Choose Us?</h2>
+    </div>
     <section class="fourth">
         <div class="feature-container">
             <div class="feature">
                 <img class="text-img" src="./img/feature-removebg-preview.png" alt="">
-                <p class="text">Unlimited KM to Drive</p>
+                <p class="text">India's #1 Car Supplier</p>
             </div>
             <div class="feature">
-                <img class="text-img" src="./img/feature.png" alt="">
-                <p class="text">1100+ Location in 16 Cities</p>
+                <img class="text-img" src="./img/showroom-icon.jpg" alt="">
+                <p class="text">1100+Showrooms in India</p>
             </div>
             <div class="feature">
-                <img class="text-img" src="./img/feature.png" alt="">
+                <img class="text-img" src="./img/anywhere-icon.png" alt="">
                 <p class="text">Anywhere Delivery</p>
             </div>
             <div class="feature">
-                <img class="text-img" src="./img/feature.png" alt="">
-                <p class="text">Privacy & Freedom</p>
+                <img class="text-img" src="./img/offer-icon.avif" alt="">
+                <p class="text">Special Offers</p>
             </div>
         </div>
     </section>
+
+    <section class="contact-sec" id="contact">
+        <div class="contact-div2">
+            <div class="contact-div3">
+                <img class="contact-img" src="./img/man-thinking.webp" alt="">
+                <p class="contact-text"> Not Sure, which Car to buy? <br> Contact us to find your Dream Car</p>
+                <button class="contact-us">Contact Us Now!</button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <br>
+        <div class="column">
+          <div class="photo">
+            <img class="ph" src="./img/black-rolls-royce-gold-plated-807290606-removebg.png" alt="">
+            <p>Hey! for any Query Contact me on Social Media or Leave a Message here </p>
+            <a href="www.instagram.com"><img class="pho" src="./img/instagram (1).png" alt=""></a>
+            <a href=""><img class="pho"  src="./img/linkedin.png" alt=""></a>
+            <a href=""><img class="pho" src="./img/github.png" alt=""></a>
+          </div>
+          <div class="social">
+            <div class="explore">
+              <h3>EXPLORE</h3>
+              <ul>
+                
+                <li>
+                  <a href="">About Us</a>
+              </li>
+              <li>
+                <a href="./myvehicle.html">My Vehicles</a>
+              </li>
+              <li>
+                <a href="">Services</a>
+              </li>
+            </ul>
+          </div>
+          <div class="link">
+            <h3>QUICK LINKS</h3>
+            <ul>
+              <li>
+                <a href="#Contact">Contact Us</a>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <a href="#">Terms & Conditions</a>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <a href="#">Privacy</a>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <a href="#">Feedbacks</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="cat">
+            <h3>CATEGORIES</h3>
+            <ul>
+              <li>
+                <a href="#">Graphic Design</a>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <a href="#">Web Design</a>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <a href="#">Branding & Advertising</a> 
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <a href="">Web Development</a>
+              </li>
+            </ul>
+          </div>
+          
+          <!-- <div class="add">
+            <br>
+            <img class="ek" src="maps-and-flags.png" alt="">
+            <img class="do" src="phone-call.png" alt="">
+            <img class="teen" src="email.png" alt="">
+          </div> -->
+          
+          <div class="que">
+            <h3>HAVE A QUESTION?</h3>
+            <p>Delhi</p>
+            <p> Delhi -110006</p>
+            <a href="tel:+91">9711644284</a>
+            <br>
+            <a href="mailto:">khaliqhussain9711@gmail.com</a>
+          </div>
+          </div>
+        </div>
+        <hr>
+           <div class="copy">
+           Copyright ©2023 ALL RIGHTS RESERVED | KHALIQUE HUSSAIN
+           
+           </div>
+      </footer>
 </body>
 </html>
